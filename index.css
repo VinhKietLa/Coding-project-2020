@@ -1,0 +1,38 @@
+.mainContainer {
+    background-color:#abb5bf;
+    height: 950px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.navbar {
+    background-color:#a0f684;
+    height: 300px;
+    border: 2px solid red;
+    text-align: center;   
+}
+
+.aboutMe {
+    background-color:#ffff66;
+    height: 200px;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.mySkills {
+    background-color: #7fe5f0;
+    height: 200px;
+    border: 2px solid gold;
+}
+
+.myPortfolio {
+    background-color: #ffb6c1;
+    height: 200px;
+    border: 2px solid green;
+}
+
+.contactMe {
+    background-color: #c39797;
+    height: 200px;
+    border: 2px solid purple;
+}
