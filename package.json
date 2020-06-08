@@ -1,0 +1,23 @@
+{
+  "name": "Coding-project-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/styleOutput.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinhKietLa/Coding-project-2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinhKietLa/Coding-project-2020/issues"
+  },
+  "homepage": "https://github.com/VinhKietLa/Coding-project-2020#readme",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
