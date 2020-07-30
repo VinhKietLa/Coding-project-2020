@@ -4,12 +4,55 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device=width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie-edge">
- <link rel="stylesheet" href="styleOutput.css">
+ <link rel="stylesheet" href="../styleOutput.css">
  <title>Vinh's Website</title>
 </head>
-<body>
+<body class="font-sans bg-blue-700 text-white">
+
+    <!-- NAVBAR COMPONENT -->
+    <nav class="flex justify-between bg-gray-700 p-4 flex-wrap mb-3">
+        <div class="items-center text-white">
+          <span class="font-bold text-4xl tracking-wider">VINH LA</span>
+        </div>
+        <div class="lg:hidden pr-2 pt-2">
+          <button class="collapsible flex items-center px-3 py-2 border rounded text-white border-white hover:border-white bg-blue-700 w-24">
+            <span class="pr-3">Menu</span>
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+        </div>
+        <div id ="menu-content" class="hidden text-white text-xl w-full pt-5 leading-loose">
+          <ul>
+              <li><a href="#">SKILLS</a></li>
+              <li><a href="#">PORTFOLIO</a></li>
+              <li><a href="#">CONTACT</a></li>
+          </ul>            
+        </div>           
+        </div>
+    </nav>
+
+    <!--Skills heading-->
+    
+    <div class="pl-3 pt-10 text-4xl tracking-wider">Skills</div>
 
     
-</body>
+    <!--Skills Breakdown-->
+
+    <div class="skills">
+        <div class="mx-12 bg-gray-100">
+            <img class="mt-8 h-48 w-full" src="/dist/Img/htmlCssLogo.jpg" alt="HTML and CSS logo">
+            <div class="text-black">CSS/HTML            
+            </div>
+                <div class="text-black">
+                    I am very familiar with HTML and CSS. I have also worked with CSS frameworks including SaSS and Tailwind CSS.
+                </div>
+        </div>
+
+    </div>
+
+
+
+<script src="../JS/test.js"></script>
+
+
 </body>
 </html>
